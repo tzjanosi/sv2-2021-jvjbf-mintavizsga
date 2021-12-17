@@ -10,7 +10,7 @@ public class OwlInCounties {
     }
 
     public String getName() {
-        return name;
+        return new String(name);
     }
 
     public int getCountOfOwls() {
